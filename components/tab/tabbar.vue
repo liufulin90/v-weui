@@ -1,5 +1,5 @@
 <template>
-<div class="weui_tabbar">
+<div class="weui-tabbar">
   <slot></slot>
 </div>
 </template>

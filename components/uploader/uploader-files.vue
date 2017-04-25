@@ -1,3 +1,3 @@
 <template>
-<div class="weui_uploader_files"><slot></slot></div>
+<div class="weui-uploader__files"><slot></slot></div>
 </template>

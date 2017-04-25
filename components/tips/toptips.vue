@@ -1,3 +1,3 @@
 <template>
-<div class="weui_toptips weui_warn" :style="{display: 'block'}"><slot></slot></div>
+<div class="weui-toptips weui-toptips_warn" :style="{display: 'block'}"><slot></slot></div>
 </template>

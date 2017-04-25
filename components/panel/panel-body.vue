@@ -1,3 +1,3 @@
 <template>
-<div class="weui_panel_bd"><slot></slot></div>
+<div class="weui-panel__bd"><slot></slot></div>
 </template>

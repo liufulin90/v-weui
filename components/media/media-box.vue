@@ -1,8 +1,8 @@
 <template>
-<a :href="link || 'javascript:;'" v-link="routerLink" class="weui_media_box" :class="typeClass" v-if="!!link || !!routerLink">
+<a :href="link || 'javascript:;'" v-link="routerLink" class="weui-media-box" :class="typeClass" v-if="!!link || !!routerLink">
   <slot></slot>
 </a>
-<div class="weui_media_box" :class="typeClass" v-else>
+<div class="weui-media-box" :class="typeClass" v-else>
   <slot></slot>
 </div>
 </template>
@@ -14,7 +14,7 @@ export default {
      * 列表类型，可以为：
      * appmsg：图文组合列表
      * text：文字组合列表
-     * small_appmsg：小图文组合列表
+     * small-appmsg：小图文组合列表
      */
     type: {
       type: String,
@@ -41,7 +41,7 @@ export default {
 
   computed: {
     typeClass() {
-      return `weui_media_${this.type}`;
+      return `weui-media-box_${this.type}`;
     }
   }
 }

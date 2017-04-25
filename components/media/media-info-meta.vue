@@ -1,5 +1,5 @@
 <template>
-<li class="weui_media_info_meta" :class="{'weui_media_info_meta_extra': extra}"><slot></slot></li>
+<li class="weui-media-box__info__meta" :class="{'weui-media-box__info__meta_extra': extra}"><slot></slot></li>
 </template>
 
 <script>

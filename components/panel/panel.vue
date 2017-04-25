@@ -1,5 +1,5 @@
 <template>
-<div class="weui_panel" :class="{'weui_panel_access': access}">
+<div class="weui-panel" :class="{'weui-panel_access': access}">
   <slot></slot>
 </div>
 </template>

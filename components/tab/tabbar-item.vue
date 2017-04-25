@@ -1,9 +1,9 @@
 <template>
-<a href="link || 'javascript:;'" v-link="routerLink" class="weui_tabbar_item" :class="{'weui_bar_item_on': isOn}">
-  <div class="weui_tabbar_icon">
+<a href="link || 'javascript:;'" v-link="routerLink" class="weui-tabbar__item" :class="{'weui-bar__item-on': isOn}">
+  <div class="weui-tabbar__icon">
     <slot name="icon"></slot>
   </div>
-  <div class="weui_tabbar_label">
+  <div class="weui-tabbar__label">
     <slot name="label"></slot>
   </div>
 </a>

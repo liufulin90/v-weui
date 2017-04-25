@@ -1,13 +1,13 @@
 <template>
-<div class="weui_uploader">
-  <cell class="weui_uploader_hd">
+<div class="weui-uploader">
+  <cell class="weui-uploader__hd">
     <span slot="body"><slot name="title"></slot></span>
     <span slot="footer" v-if="count >= 0 && maxlength > 0">{{count}}/{{maxlength}}</span>
   </cell>
-  <div class="weui_uploader_bd">
+  <div class="weui-uploader__bd">
     <slot name="uploader-files"></slot>
-    <div class="weui_uploader_input_wrp" v-if="hasInput">
-      <input type="file" class="weui_uploader_input" accept="image/jpg,image/jpeg,image/png,image/gif" multiple @change="dispatchChange">
+    <div class="weui-uploader__input-box" v-if="hasInput">
+      <input type="file" class="weui-uploader__input" accept="image/jpg,image/jpeg,image/png,image/gif" multiple @change="dispatchChange">
     </div>
   </div>
 </div>

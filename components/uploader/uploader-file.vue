@@ -1,6 +1,6 @@
 <template>
-<li :class="{'weui_uploader_file': true, 'weui_uploader_status': hasStatus}" :style="{'backgroundImage': 'url(' + imageUrl + ')'}">
-  <div class="weui_uploader_status_content">
+<li :class="{'weui-uploader__file': true, 'weui-uploader__file_status': hasStatus}" :style="{'backgroundImage': 'url(' + imageUrl + ')'}">
+  <div class="weui-uploader__file-content">
     <slot name="status"></slot>
   </div>
 </li>

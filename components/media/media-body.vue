@@ -1,3 +1,3 @@
 <template>
-<div class="weui_media_bd"><slot></slot></div>
+<div class="weui-media-box__bd"><slot></slot></div>
 </template>

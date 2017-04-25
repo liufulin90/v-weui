@@ -1,10 +1,10 @@
 <template>
-<div class="weui_progress">
-  <div class="weui_progress_bar">
-    <div class="weui_progress_inner_bar" :style="{width: progress + '%'}"></div>
+<div class="weui-progress">
+  <div class="weui-progress__bar">
+    <div class="weui-progress__inner-bar" :style="{width: progress + '%'}"></div>
   </div>
-  <a v-if="hasCancelButton" href="javascript:;" class="weui_progress_opr" @click="dispatchEvent('weui-progress-cancel')">
-    <i class="weui_icon_cancel"></i>
+  <a v-if="hasCancelButton" href="javascript:;" class="weui-progress__opr" @click="dispatchEvent('weui-progress-cancel')">
+    <i class="weui-icon-cancel"></i>
   </a>
 </div>
 </template>

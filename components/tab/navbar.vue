@@ -1,5 +1,5 @@
 <template>
-<div class="weui_navbar">
+<div class="weui-navbar">
   <navbar-item v-for="item in translatedItems" :key="item.key"
   :is-selected="item.key === selected" @weui-item-select="selectItem">
     {{item.text}}

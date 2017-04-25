@@ -1,5 +1,5 @@
 <template>
-<div :class="{'weui_navbar_item': true, 'weui_bar_item_on': isSelected}"  @click="selectItem">
+<div :class="{'weui-navbar__item': true, 'weui-bar__item_on': isSelected}"  @click="selectItem">
   <slot></slot>
 </div>
 </template>

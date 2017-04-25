@@ -1,16 +1,16 @@
 <template>
-<div class="weui_msg">
-  <div class="weui_icon_area" v-if="icon">
-    <i :class="['weui_icon_msg', 'weui_icon_' + icon]"></i>
+<div class="weui-msg">
+  <div class="weui-msg__icon-area" v-if="icon">
+    <i :class="['weui-icon_msg', 'weui-icon-' + icon]"></i>
   </div>
-  <div class="weui_text_area">
-    <h2 class="weui_msg_title" v-if="title">{{title}}</h2>
-    <div class="weui_msg_desc"><slot name="content"></slot></div>
+  <div class="weui-msg__text-area">
+    <h2 class="weui-msg__title" v-if="title">{{title}}</h2>
+    <div class="weui-msg__desc"><slot name="content"></slot></div>
   </div>
-  <div class="weui_opr_area">
+  <div class="weui-msg__opr-area">
     <slot name="operation"></slot>
   </div>
-  <div class="weui_extra_area">
+  <div class="weui-msg__extra-area">
     <slot name="extra"></slot>
   </div>
 </div>
