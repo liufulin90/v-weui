@@ -1,4 +1,4 @@
-# vue-weui组件列表
+# v-weui组件列表
 
 ## 目录
 
@@ -122,7 +122,7 @@ plain: {
 
 ### 2. 列表（Cells）相关
 
-列表种类较多，vue-weui做了非常细致的拆分，通过不同组合可以构造丰富的内容。
+列表种类较多，v-weui做了非常细致的拆分，通过不同组合可以构造丰富的内容。
 
 一些常用结构如下：
 
@@ -680,7 +680,7 @@ cancelButton: {
 </template>
 
 <script>
-import {Dialog} from 'vue-weui';
+import {Dialog} from 'v-weui';
 
 export default {
   data() {

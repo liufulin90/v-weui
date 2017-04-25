@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import {Tab, Navbar, Message, Cells, LinkCell} from 'vue-weui';
+import {Tab, Navbar, Message, Cells, LinkCell} from 'v-weui';
 
 export default {
   data() {

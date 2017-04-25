@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import {Progress} from 'vue-weui';
+import {Progress} from 'v-weui';
 
 export default {
   components: {

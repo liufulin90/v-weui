@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import {Button, Toast} from 'vue-weui';
+import {Button, Toast} from 'v-weui';
 
 export default {
   data() {

@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import {Tab, Tabbar, TabbarItem} from 'vue-weui';
+import {Tab, Tabbar, TabbarItem} from 'v-weui';
 
 import icon_nav_button from '../../images/icon_nav_button.png';
 import icon_nav_msg from '../../images/icon_nav_msg.png';

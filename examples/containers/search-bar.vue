@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import {SearchBar, Cells, LinkCell} from 'vue-weui';
+import {SearchBar, Cells, LinkCell} from 'v-weui';
 
 export default {
   data() {

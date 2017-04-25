@@ -63,7 +63,7 @@ import MediaInfoMeta from './media/media-info-meta.vue';
 
 import SearchBar from './search-bar/search-bar.vue';
 
-const VueWeui = {
+const VWeui = {
   ButtonArea,
   Button,
   CellsTitle,
@@ -114,4 +114,4 @@ const VueWeui = {
   SearchBar
 };
 
-module.exports = VueWeui;
+module.exports = VWeui;

@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import {Message, ButtonArea, Button} from 'vue-weui';
+import {Message, ButtonArea, Button} from 'v-weui';
 
 export default {
   components: {

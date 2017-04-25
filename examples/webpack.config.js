@@ -33,7 +33,7 @@ module.exports = {
 
   resolve: {
     alias: {
-      'vue-weui': path.join(__dirname, '..', 'components')
+      'v-weui': path.join(__dirname, '..', 'components')
     }
   },
 

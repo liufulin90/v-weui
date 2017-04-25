@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import {Actionsheet, Button} from 'vue-weui';
+import {Actionsheet, Button} from 'v-weui';
 
 export default {
   data() {

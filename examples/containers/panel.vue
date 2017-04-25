@@ -98,7 +98,7 @@ import {
   MediaAppmsgThumb, MediaTitle, MediaDescription,
   MediaInfo, MediaInfoMeta,
   Cells, LinkCell
-} from 'vue-weui';
+} from 'v-weui';
 
 export default {
   components: {

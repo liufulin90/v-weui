@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import {CellsTitle, Cells, LinkCell} from 'vue-weui';
+import {CellsTitle, Cells, LinkCell} from 'v-weui';
 
 export default {
   components: {

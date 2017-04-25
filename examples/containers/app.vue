@@ -1,7 +1,7 @@
 <template>
 <div class="page" transition="app">
   <div class="hd">
-    <h1 class="page_title">Vue-WeUI</h1>
+    <h1 class="page_title">V-WeUI</h1>
     <p class="page_desc">使用Vue封装，为微信Web服务量身设计</p>
   </div>
   <div class="bd">
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import {Grids, Grid} from 'vue-weui';
+import {Grids, Grid} from 'v-weui';
 import icon_nav_button from '../images/icon_nav_button.png';
 import icon_nav_cell from '../images/icon_nav_cell.png';
 import icon_nav_toast from '../images/icon_nav_toast.png';

@@ -29,7 +29,7 @@
 </template>
 
 <script>
-import {Article} from 'vue-weui';
+import {Article} from 'v-weui';
 
 export default {
   components: {

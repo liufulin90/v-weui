@@ -1,4 +1,4 @@
-# vue-weui
+# vue2-weui
 
 [![npm package][npm-badge]][npm] [![dependencies status][dependencies-badge]][dependencies] [![npm downloads][downloads-badge]][npm]
 

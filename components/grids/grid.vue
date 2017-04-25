@@ -1,9 +1,9 @@
 <template>
-<a :href="link" v-link="routerLink" class="weui_grid">
-  <div class="weui_grid_icon" v-if="imageUrl">
+<a :href="link" v-link="routerLink" class="weui_grid js_grid">
+  <div class="weui-grid__icon" v-if="imageUrl">
     <img :src="imageUrl" alt="">
   </div>
-  <p class="weui_grid_label" v-if="label">{{label}}</p>
+  <p class="weui-grid__label" v-if="label">{{label}}</p>
 </a>
 </template>
 

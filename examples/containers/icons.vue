@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import {Icon} from 'vue-weui';
+import {Icon} from 'v-weui';
 
 export default {
   components: {

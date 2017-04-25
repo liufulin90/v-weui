@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import {Button, Dialog} from 'vue-weui';
+import {Button, Dialog} from 'v-weui';
 
 export default {
   data() {

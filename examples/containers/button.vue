@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import {Button} from 'vue-weui';
+import {Button} from 'v-weui';
 
 export default {
   components: {
