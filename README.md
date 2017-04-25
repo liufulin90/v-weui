@@ -53,10 +53,10 @@ npm install v-weui --save
 
 ```javascript
 // 引用所有组件
-import VueWeui from 'v-weui';
+import VWeui from 'v-weui';
 
 export default {
-  components: VueWeui
+  components: VWeui
 };
 
 // 引用部分组件

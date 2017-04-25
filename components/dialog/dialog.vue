@@ -1,12 +1,12 @@
 <template>
-<div :class="'weui_dialog_' + type">
+<div :class="'weui-dialog_' + type">
   <div class="weui_mask"></div>
-  <div class="weui_dialog">
-    <div class="weui_dialog_hd">
-      <div class="weui_dialog_title">{{title}}</div>
+  <div class="weui-dialog">
+    <div class="weui-dialog__hd">
+      <div class="weui-dialog__title">{{title}}</div>
     </div>
-    <div class="weui_dialog_bd"><slot></slot></div>
-    <div class="weui_dialog_ft">
+    <div class="weui-dialog__bd"><slot></slot></div>
+    <div class="weui-dialog__ft">
       <a v-if="type === 'confirm'" href="javascript:;" class="weui_btn_dialog default" @click="dispathEventAndClose('weui-dialog-cancel')">{{cancelButton}}</a>
       <a href="javascript:;" class="weui_btn_dialog primary" @click="dispathEventAndClose('weui-dialog-confirm')">{{confirmButton}}</a>
     </div>

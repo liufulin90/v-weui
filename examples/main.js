@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import fastclick from 'fastclick';
-import 'weui/dist/style/weui.css';
+// import 'weui/dist/style/weui.css';
 import './example.less';
 import {App,
   Button, Cell, Toast,

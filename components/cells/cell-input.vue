@@ -1,5 +1,5 @@
 <template>
-<input class="weui_input" v-model="value">
+<input class="weui-input" v-model="value">
 </template>
 
 <script>

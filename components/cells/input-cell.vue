@@ -1,15 +1,15 @@
 <template>
-<div class="weui_cell" :class="{'weui_vcode': vcode, 'weui_cell_warn': warn}">
+<div class="weui-cell" :class="{'weui-vcode': vcode, 'weui-cell_warn': warn}">
   <cell-header v-if="label">
-    <label :for="id" class="weui_label">{{{label}}}</label>
+    <label :for="id" class="weui-label">{{{label}}}</label>
   </cell-header>
   <cell-body>
     <cell-textarea :type="type" :placeholder="placeholder" :id="id" :name="name" :rows="rows" :maxlength="maxlength" :value.sync="value" v-if="type === 'textarea'"></cell-textarea>
     <cell-input :type="type" :placeholder="placeholder" :id="id" :name="name" :maxlength="maxlength" :value.sync="value" v-else></cell-input>
-    <div class="weui_textarea_counter" v-if="type === 'textarea' && maxlength"><span>{{value.length}}/{{maxlength}}</span></div>
+    <div class="weui-textarea_counter" v-if="type === 'textarea' && maxlength"><span>{{value.length}}/{{maxlength}}</span></div>
   </cell-body>
   <cell-footer v-if="vcode || warn">
-    <i class="weui_icon_warn" v-if="warn"></i>
+    <i class="weui-icon-warn" v-if="warn"></i>
     <img :src="vcode" v-if="vcode">
   </cell-footer>
 </div>

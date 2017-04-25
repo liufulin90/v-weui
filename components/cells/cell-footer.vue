@@ -1,3 +1,3 @@
 <template>
-<div class="weui_cell_ft"><slot></slot></div>
+<div class="weui-cell__ft"><slot></slot></div>
 </template>

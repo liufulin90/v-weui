@@ -1,5 +1,5 @@
 <template>
-<article class="weui_article">
+<article class="weui-article">
   <slot></slot>
 </article>
 </template>

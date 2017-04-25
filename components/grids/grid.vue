@@ -1,5 +1,5 @@
 <template>
-<a :href="link" v-link="routerLink" class="weui_grid js_grid">
+<a :href="link" v-link="routerLink" class="weui-grid">
   <div class="weui-grid__icon" v-if="imageUrl">
     <img :src="imageUrl" alt="">
   </div>

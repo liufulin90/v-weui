@@ -1,3 +1,5 @@
+import './less/weui.less';
+
 import ButtonArea from './button/button-area.vue';
 import Button from './button/button.vue';
 

@@ -3,7 +3,7 @@
   <cell-body>{{{label}}}</cell-body>
   <cell-footer>
     <input type="radio" :name="name" class="weui_check" :id="id" :value="value" v-model="picked">
-    <span class="weui_icon_checked"></span>
+    <span class="weui-icon-checked"></span>
   </cell-footer>
 </label>
 </template>

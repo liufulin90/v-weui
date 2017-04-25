@@ -1,5 +1,5 @@
 <template>
-<img :src="src" :alt="alt" class="weui_media_appmsg_thumb">
+<img :src="src" :alt="alt" class="weui-media_appmsg_thumb">
 </template>
 
 <script>

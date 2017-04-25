@@ -10,14 +10,17 @@ module.exports = {
 
   output: {
     filename: './dist/[name].js',
-    library: 'VueWeui',
+    library: 'VWeui',
     libraryTarget: 'umd'
   },
 
   module: {
     loaders: [
-      {test: /\.vue$/, loader: 'vue'},
-      {test: /\.js$/, exclude: /node_modules/, loader: 'babel'}
+      { test: /\.vue$/, loader: 'vue' },
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel' },
+      { test: /\.css$/, loader: 'style!css'},
+      { test: /\.less$/, loader: 'style!css!autoprefixer!less' },
+      { test: /\.(png|jpg|gif)$/, loader: 'file?name=[name].[ext]?[hash]' }
     ]
   },
 

@@ -1,3 +1,3 @@
 <template>
-<p class="weui_cells_tips"><slot></slot></p>
+<p class="weui-cells__tips"><slot></slot></p>
 </template>

@@ -1,8 +1,8 @@
 <template>
-<label :for="id" class="weui_cell weui_check_label">
+<label :for="id" class="weui-cell weui-check__label">
   <cell-header>
-    <input type="checkbox" :name="name" class="weui_check" :id="id" :value="value" v-model="checked">
-    <span class="weui_icon_checked"></span>
+    <input type="checkbox" :name="name" class="weui-check" :id="id" :value="value" v-model="checked">
+    <span class="weui-icon-checked"></span>
   </cell-header>
   <cell-body>{{{label}}}</cell-body>
 </label>

@@ -1,5 +1,5 @@
 <template>
-<select class="weui_select" v-model="selected">
+<select class="weu-select" v-model="selected">
   <option v-for="option in translatedOptions" :value="option.value">{{option.text}}</option>
 </select>
 </template>

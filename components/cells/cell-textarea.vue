@@ -1,5 +1,5 @@
 <template>
-<textarea class="weui_textarea" v-model="value"></textarea>
+<textarea class="weui-textarea" v-model="value"></textarea>
 </template>
 
 <script>

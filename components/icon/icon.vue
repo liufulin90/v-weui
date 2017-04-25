@@ -31,15 +31,15 @@ export default {
 
   computed: {
     nameClass() {
-      return `weui_icon${this.type === 'safe' ? '_safe' : ''}_${this.name}`
+      return `weui-icon${this.type === 'safe' ? '-safe' : ''}-${this.name}`
     },
 
     typeClass() {
       switch(this.type) {
         case 'message':
-          return 'weui_icon_msg';
+          return 'weui-icon_msg';
         case 'safe':
-          return 'weui_icon_safe';
+          return 'weui-icon-safe';
         default:
           return false;
       }

@@ -1,5 +1,5 @@
 <template>
-<div class="weui_cell weui_cell_select" :class="{'weui_select_before': before, 'weui_select_after': after}">
+<div class="weui-cell weui-cell_select" :class="{'weui-cell_select-before': before, 'weui-cell_select-after': after}">
   <cell-header v-if="before || after">
     <cell-select :options="options" :selected.sync="selected" v-if="before"></cell-select>
     <slot name="header" v-else></slot>
