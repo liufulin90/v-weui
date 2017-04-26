@@ -4,7 +4,7 @@
     <input type="checkbox" :name="name" class="weui-check" :id="id" :value="value" v-model="checked">
     <span class="weui-icon-checked"></span>
   </cell-header>
-  <cell-body>{{{label}}}</cell-body>
+  <cell-body>{{label}}</cell-body>
 </label>
 </template>
 

@@ -1,5 +1,3 @@
-import './less/weui.less';
-
 import ButtonArea from './button/button-area.vue';
 import Button from './button/button.vue';
 
@@ -64,6 +62,7 @@ import MediaInfo from './media/media-info.vue';
 import MediaInfoMeta from './media/media-info-meta.vue';
 
 import SearchBar from './search-bar/search-bar.vue';
+import Qrcode from './qrcode/qrcode.vue';
 
 const VWeui = {
   ButtonArea,
@@ -113,7 +112,59 @@ const VWeui = {
   MediaDescription,
   MediaInfo,
   MediaInfoMeta,
-  SearchBar
+  SearchBar,
+  Qrcode
 };
+export default VWeui
 
-module.exports = VWeui;
+export {
+  ButtonArea,
+  Button,
+  CellsTitle,
+  CellsTips,
+  Cells,
+  Cell,
+  LinkCell,
+  RadioCell,
+  CheckboxCell,
+  SwitchCell,
+  InputCell,
+  SelectCell,
+  CellHeader,
+  CellBody,
+  CellFooter,
+  CellInput,
+  CellSelect,
+  Toptips,
+  Toast,
+  Dialog,
+  Progress,
+  Message,
+  Article,
+  Actionsheet,
+  Icon,
+  Grids,
+  Grid,
+  Uploader,
+  UploaderFiles,
+  UploaderFile,
+  Tab,
+  Navbar,
+  NavbarItem,
+  Tabbar,
+  TabbarItem,
+  Panel,
+  PanelHeader,
+  PanelBody,
+  PanelFooter,
+  MediaBox,
+  MediaHeader,
+  MediaBody,
+  MediaAppmsgThumb,
+  MediaTitle,
+  MediaDescription,
+  MediaInfo,
+  MediaInfoMeta,
+  SearchBar,
+  Qrcode
+}

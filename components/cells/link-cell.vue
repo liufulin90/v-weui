@@ -1,5 +1,5 @@
 <template>
-<a :href="cloneLink" v-link="routerLink" class="weui_cell" >
+<a :href="link" :link="routerLink" class="weui_cell" >
   <cell-header><slot name="header"></slot></cell-header>
   <cell-body><slot name="body"></slot></cell-body>
   <cell-footer><slot name="footer"></slot></cell-footer>

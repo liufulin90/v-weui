@@ -1,5 +1,5 @@
 <template>
-<a class="weui-panel__ft" :href="link || 'javascript:;'" v-link="routerLink"><slot></slot></a>
+<a class="weui-panel__ft" :href="link || 'javascript:;'" :link="routerLink"><slot></slot></a>
 </template>
 
 <script>

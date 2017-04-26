@@ -1,7 +1,7 @@
 <template>
 <div class="weui-cell" :class="{'weui-vcode': vcode, 'weui-cell_warn': warn}">
   <cell-header v-if="label">
-    <label :for="id" class="weui-label">{{{label}}}</label>
+    <label :for="id" class="weui-label">{{label}}</label>
   </cell-header>
   <cell-body>
     <cell-textarea :type="type" :placeholder="placeholder" :id="id" :name="name" :rows="rows" :maxlength="maxlength" :value.sync="value" v-if="type === 'textarea'"></cell-textarea>

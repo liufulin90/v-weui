@@ -6,7 +6,7 @@
   </div>
   <div class="bd">
     <grids>
-      <grid v-for="item in list" :router-link="{path: '/' + item.url}" :image-url="item.image" :label="item.text"></grid>
+      <grid v-for="item in list" :link="'#/' + item.url" :image-url="item.image" :label="item.text"></grid>
     </grids>
   </div>
 </div>
@@ -77,6 +77,10 @@ export default {
       }, {
         text: 'SearchBar',
         url: 'search-bar',
+        image: icon_nav_search_bar
+      }, {
+        text: 'Qr Code',
+        url: 'vue-qrcode',
         image: icon_nav_search_bar
       }]
     };

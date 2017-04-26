@@ -1,3 +1,4 @@
+export Main from './main.vue';
 export App from './app.vue';
 export Button from './button.vue';
 export Cell from './cell.vue';
@@ -13,3 +14,4 @@ export Navbar from './tab/navbar.vue';
 export Tabbar from './tab/tabbar.vue';
 export Panel from './panel.vue';
 export SearchBar from './search-bar.vue';
+export Qrcode from './qrcode.vue';

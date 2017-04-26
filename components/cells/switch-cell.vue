@@ -1,6 +1,6 @@
 <template>
 <div class="weui-cell weui-cell_switch">
-  <cell-body>{{{label}}}</cell-body>
+  <cell-body>{{label}}</cell-body>
   <cell-footer>
     <input type="checkbox" :id="id" :name="name" class="weui-switch" v-model="on">
   </cell-footer>

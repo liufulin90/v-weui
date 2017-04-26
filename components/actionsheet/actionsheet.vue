@@ -4,12 +4,12 @@
     <div class="weui-actionsheet" :class="{'weui-actionsheet_toggle': show}">
       <div class="weui-actionsheet__menu">
         <div class="weui-actionsheet__cell" v-for="(key, text) in menus" @click="dispatchEvent('weui-menu-click', key)">
-          {{{text}}}
+          {{text}}
         </div>
       </div>
       <div class="weui-actionsheet__action">
         <div class="weui-actionsheet__cell" v-for="(key, text) in actions" @click="dispatchEvent('weui-action-click', key)">
-          {{{text}}}
+          {{text}}
         </div>
       </div>
     </div>

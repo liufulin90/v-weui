@@ -1,69 +1,26 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import fastclick from 'fastclick';
-// import 'weui/dist/style/weui.css';
 import './example.less';
-import {App,
-  Button, Cell, Toast,
-  Dialog, Progress, Message,
-  Article, Actionsheet, Icons,
-  Tab, Navbar, Tabbar,
-  Panel, SearchBar} from './containers';
-
 
 Vue.config.debug = true;
 
 Vue.use(VueRouter);
 
-const router = new VueRouter();
-router.map({
-  '/': {
-    component: App
-  },
-  '/button': {
-    component: Button
-  },
-  '/cell': {
-    component: Cell
-  },
-  '/toast': {
-    component: Toast
-  },
-  '/dialog': {
-    component: Dialog
-  },
-  '/progress': {
-    component: Progress
-  },
-  '/message': {
-    component: Message
-  },
-  '/article': {
-    component: Article
-  },
-  '/actionsheet': {
-    component: Actionsheet
-  },
-  '/icons': {
-    component: Icons
-  },
-  '/tab': {
-    component: Tab
-  },
-  '/navbar': {
-    component: Navbar
-  },
-  '/tabbar': {
-    component: Tabbar
-  },
-  '/panel': {
-    component: Panel
-  },
-  '/search-bar': {
-    component: SearchBar
-  }
+import routes from './router'
+const router = new VueRouter({
+  mode: 'hash',
+  routes
 });
+router.beforeEach(({meta, path, name}, from, next) => {
+  // 没有登录并且访问链接不在控制的权限内则跳转到登录页面（即非法路径访问）
+  next()
+})
+import {Main} from './containers';
+new Vue({
+  el: '#container',
+  router,
+  render: h => h(Main),
+})
 
-router.start(Vue.extend({}), '#container');
-
-fastclick.attach(document.body);
+// fastclick.attach(document.body);

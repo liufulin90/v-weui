@@ -1,6 +1,6 @@
 <template>
 <label :for="id" class="weui_cell weui_check_label">
-  <cell-body>{{{label}}}</cell-body>
+  <cell-body>{{label}}</cell-body>
   <cell-footer>
     <input type="radio" :name="name" class="weui_check" :id="id" :value="value" v-model="picked">
     <span class="weui-icon-checked"></span>

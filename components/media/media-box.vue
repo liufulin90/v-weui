@@ -1,5 +1,5 @@
 <template>
-<a :href="link || 'javascript:;'" v-link="routerLink" class="weui-media-box" :class="typeClass" v-if="!!link || !!routerLink">
+<a :href="link || 'javascript:;'" :link="routerLink" class="weui-media-box" :class="typeClass" v-if="!!link || !!routerLink">
   <slot></slot>
 </a>
 <div class="weui-media-box" :class="typeClass" v-else>
