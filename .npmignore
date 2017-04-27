@@ -1,9 +1,16 @@
 .DS_Store
 *.log
+build
+config
+dist
 docs
 examples
 node_modules
+src
+test
+.*
 .idea/*
 .eslintignore
 .gitignore
-webpack.build.js
+webpack.build.*
+index.html

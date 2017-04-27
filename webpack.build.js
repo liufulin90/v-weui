@@ -9,24 +9,19 @@ module.exports = {
   },
 
   output: {
-    filename: './dist/[name].js',
+    filename: './lib/[name].js',
     library: 'VWeui',
     libraryTarget: 'umd'
   },
 
   module: {
     loaders: [
-      { test: /\.vue$/, loader: 'vue' },
-      { test: /\.js$/, exclude: /node_modules/, loader: 'babel' },
+      { test: /\.vue$/, loader: 'vue-loader' },
+      { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' },
       { test: /\.css$/, loader: 'style!css'},
       { test: /\.less$/, loader: 'style!css!autoprefixer!less' },
       { test: /\.(png|jpg|gif)$/, loader: 'file?name=[name].[ext]?[hash]' }
     ]
-  },
-
-  babel: {
-    presets: ['es2015', 'stage-0'],
-    plugins: ['transform-runtime']
   }
 };
 
