@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'cell-select',
   props: {
     selected: {
       type: null,

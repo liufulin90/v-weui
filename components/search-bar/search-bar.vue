@@ -17,6 +17,7 @@
 
 <script>
 export default {
+  name: 'search-bar',
   props: {
     /**
      * 标签

@@ -16,6 +16,7 @@
 
 <script>
 export default {
+  name: 'dialog',
   props: {
     /**
      * 对话框类型

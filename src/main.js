@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 
 Vue.config.productionTip = false
+import weui from 'v-weui'
+Vue.use(weui)
 
 /* eslint-disable no-new */
 new Vue({

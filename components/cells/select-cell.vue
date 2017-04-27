@@ -18,6 +18,7 @@ import CellFooter from './cell-footer.vue';
 import CellSelect from './cell-select.vue';
 
 export default {
+  name: 'select-cell',
   props: {
     /**
      * 选项数组

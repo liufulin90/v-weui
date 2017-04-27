@@ -13,6 +13,7 @@
 
 <script>
 export default {
+  name: 'toast',
   props: {
     /**
      * toast类型

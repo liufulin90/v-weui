@@ -13,7 +13,7 @@
 </template>
 
 <script>
-  import { Grids, Grid } from 'v-weui';
+  import { Grids, Grid } from 'v-weui/';
   import icon_nav_button from '../images/icon_nav_button.png';
   import icon_nav_cell from '../images/icon_nav_cell.png';
   import icon_nav_toast from '../images/icon_nav_toast.png';

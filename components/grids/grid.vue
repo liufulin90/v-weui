@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  name: 'grid',
   props: {
     /**
      * 跳转链接，会添加在标签的href属性中

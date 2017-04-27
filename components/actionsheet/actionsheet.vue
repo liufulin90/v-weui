@@ -18,6 +18,7 @@
 
 <script>
 export default {
+  name: 'actionsheet',
   props: {
     /**
      * 双向绑定的数据，用于控制是否显示Actionsheet

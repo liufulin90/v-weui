@@ -11,6 +11,7 @@
 
 <script>
 export default {
+  name: 'tabbar-item',
   props: {
     /**
      * 跳转链接

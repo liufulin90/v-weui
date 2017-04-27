@@ -12,6 +12,7 @@ import CellBody from './cell-body.vue';
 import CellFooter from './cell-footer.vue';
 
 export default {
+  name: 'link-cell',
   data() {
     return {
       cloneLink: null

@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'panel',
   props: {
     /**
      * 底部部分是否包含“查看更多”样式

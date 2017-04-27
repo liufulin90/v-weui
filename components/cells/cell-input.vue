@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  name: 'cell-input',
   props: {
     value: {
       type: String,

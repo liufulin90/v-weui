@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  name: 'panel-footer',
   props: {
     /**
      * 底部跳转链接

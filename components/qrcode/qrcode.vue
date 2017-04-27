@@ -5,6 +5,7 @@
 <script>
   import QrCode from './qr.es6'
   export default {
+    name: 'qrcode',
     props: {
       val: {
         type: String,

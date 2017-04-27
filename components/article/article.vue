@@ -3,3 +3,8 @@
   <slot></slot>
 </article>
 </template>
+<script>
+  export default{
+    name: 'article',
+  }
+</script>

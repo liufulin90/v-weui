@@ -17,6 +17,7 @@
 import Cell from '../cells/cell.vue';
 
 export default {
+  name: 'uploader',
   props: {
     /**
      * 已上传文件数量

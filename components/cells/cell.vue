@@ -12,6 +12,7 @@ import CellBody from './cell-body.vue';
 import CellFooter from './cell-footer.vue';
 
 export default {
+  name: 'cell',
   components: {
     CellHeader,
     CellBody,

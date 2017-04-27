@@ -8,6 +8,7 @@
 
 <script>
 export default {
+  name: 'uploader-file',
   props: {
     /**
      * 预览图的url，将被用于backgroud-image中

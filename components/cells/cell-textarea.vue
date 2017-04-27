@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  name: 'cell-textarea',
   props: {
     value: {
       type: String,

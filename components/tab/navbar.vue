@@ -11,6 +11,7 @@
 import NavbarItem from './navbar-item.vue';
 
 export default {
+  name: 'navbar',
   props: {
     /**
      * Navbar的选项数组

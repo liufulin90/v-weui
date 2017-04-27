@@ -13,6 +13,7 @@ import CellHeader from './cell-header.vue';
 import CellBody from './cell-body.vue';
 
 export default {
+  name: 'checkbox-cell',
   props: {
     /**
      * checkbox input的id

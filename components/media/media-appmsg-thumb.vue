@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  name: 'media-appmsg-thumb',
   props: {
     /**
      * 应用于图片的src

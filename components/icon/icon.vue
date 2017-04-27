@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  name: 'icon',
   props: {
     /**
      * 图标名称，可能的取值有

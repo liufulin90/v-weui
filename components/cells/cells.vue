@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  name: 'cells',
   props: {
     /**
      * Cells类型

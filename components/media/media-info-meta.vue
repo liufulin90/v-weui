@@ -4,6 +4,7 @@
 
 <script>
 export default {
+  name: 'media-info-meta',
   props: {
     /**
      * 是否为extra的标识，若是，则文字左方会有竖线隔离符

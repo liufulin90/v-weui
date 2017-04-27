@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  name: 'button',
   props: {
     /**
      * 按钮颜色类型

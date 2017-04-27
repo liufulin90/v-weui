@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  name: 'media-box',
   props: {
     /**
      * 列表类型，可以为：

@@ -7,3 +7,8 @@
   <slot name="tabbar"></slot>
 </div>
 </template>
+<script>
+  export default{
+    name: 'tab'
+  }
+</script>

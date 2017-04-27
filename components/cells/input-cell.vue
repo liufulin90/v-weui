@@ -23,6 +23,7 @@ import CellInput from './cell-input.vue';
 import CellTextarea from './cell-textarea.vue';
 
 export default {
+  name: 'input-cell',
   props: {
     /**
      * 输入框的类型
