@@ -2,12 +2,12 @@
 *.log
 build
 config
-dist
 docs
 examples
 node_modules
 src
 test
+dest
 .*
 .idea/*
 .eslintignore

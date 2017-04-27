@@ -9,7 +9,7 @@ module.exports = {
   },
 
   output: {
-    filename: './lib/[name].js',
+    filename: './dist/[name].js',
     library: 'VWeui',
     libraryTarget: 'umd'
   },

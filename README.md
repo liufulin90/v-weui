@@ -20,25 +20,6 @@
 
 ## 安装
 
-### 安装weui
-
-v-weui中组件与css完全解绑，既给予了开发者自主性和灵活性，也能最大限度减少文件大小。安装css方法如下：
-
-```
-npm install --save weui
-```
-
-之后，只需在页面中引入`dist/style/weui.css`或者`dist/style/weui.min.css`其中之一即可. 例如:
-
-```html
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-  <title>Vue WeUI</title>
-  <link rel="stylesheet" href="path/to/weui/dist/style/weui.min.css"/>
-</head>
-```
-
 ### 安装v-weui
 
 ```
@@ -52,6 +33,8 @@ npm install v-weui --save
 #### ES6
 
 ```javascript
+// 引入css样式
+import 'v-weui/less/weui.less';
 // 引用所有组件
 import VWeui from 'v-weui';
 

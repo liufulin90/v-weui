@@ -1,8 +1,8 @@
 {
   "name": "v-weui",
-  "version": "0.1.1",
-  "description": "WeUI components with love of Vue.js",
-  "main": "lib/v-weui.js",
+  "version": "0.1.4",
+  "description": "WeUI components with love of Vue2.js",
+  "main": "dist/v-weui.js",
   "repository": {
     "type": "git",
     "url": "liufulin90/v-weui"
