@@ -1,4 +1,3 @@
-import Main from './main.vue';
 import App from './app.vue';
 import Button from './button.vue';
 import Cell from './cell.vue';
@@ -17,7 +16,6 @@ import SearchBar from './search-bar.vue';
 import Qrcode from './qrcode.vue';
 
 export {
-  Main,
   Button,
   App,
   Cell,

@@ -10,8 +10,7 @@ Vue.use(weui)
 
 /* eslint-disable no-new */
 new Vue({
-  el: '#app',
+  el: '#container',
   router,
-  template: '<App/>',
-  components: { App }
+  render: h => h(App)
 })

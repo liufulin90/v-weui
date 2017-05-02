@@ -6,7 +6,7 @@
   <div class="bd">
     <search-bar placeholder="搜索" cancel-text="取消" :value.sync="value"></search-bar>
     <cells type="access" class="search_show" v-show="!!value">
-      <link-cell v-for="n in 4">
+      <link-cell v-for="(n, index) in linkList">
         <p slot="body">实时搜索文本{{n + 1}}</p>
       </link-cell>
     </cells>
@@ -20,7 +20,8 @@ import {SearchBar, Cells, LinkCell} from 'v-weui';
 export default {
   data () {
     return {
-      value: ''
+      value: '',
+      linkList: [0, 1, 2, 3]
     };
   },
 
