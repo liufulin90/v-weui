@@ -12,7 +12,7 @@
 
 ## 预览
 
-![qr-of-examples](./docs/images/qr-of-examples.png)
+![qr-examples](./docs/images/qr-examples.png)
 
 扫描二维码在手机查看
 
