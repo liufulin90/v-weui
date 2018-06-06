@@ -59,7 +59,7 @@ export default {
 
   methods: {
     dispathEventAndClose(event) {
-      this.$dispatch(event);
+      this.$emit(event);
     }
   }
 }

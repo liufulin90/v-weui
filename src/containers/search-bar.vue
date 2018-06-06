@@ -6,7 +6,7 @@
   <div class="bd">
     <search-bar placeholder="搜索" cancel-text="取消" :value.sync="value"></search-bar>
     <cells type="access" class="search_show" v-show="!!value">
-      <link-cell v-for="(n, index) in linkList">
+      <link-cell v-for="(n, index) in linkList" :key="n">
         <p slot="body">实时搜索文本{{n + 1}}</p>
       </link-cell>
     </cells>

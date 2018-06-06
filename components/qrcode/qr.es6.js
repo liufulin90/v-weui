@@ -800,8 +800,8 @@ const QrCode = function () {
 			context = canvas.getContext('2d');
 			if (!context) throw 'canvas support is needed for PNG output';
 
-			var scale = (window.devicePixelRatio || 1) / getBackingStorePixelRatio(context)
-			canvas.height = canvas.width = size * scale
+			// var scale = (window.devicePixelRatio || 1) / getBackingStorePixelRatio(context)
+			canvas.height = canvas.width = size
 
 			context.fillStyle = options.bgColor ? options.bgColor : '#fff';
 			context.fillRect(0, 0, size, size);

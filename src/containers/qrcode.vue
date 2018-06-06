@@ -4,6 +4,10 @@
     <h1 class="page_title">qrcode</h1>
   </div>
   <div class="bd spacing">
+
+    <div style="text-align: center">
+      <qrcode :val="val" :size="size" :bg-color="bgColor" :fg-color="fgColor" level="L"></qrcode>
+    </div>
     <ul class="lists">
       <li>
         <label>size(px)</label>
@@ -22,10 +26,6 @@
         <textarea rows="6" cols="80" v-model="val"></textarea>
       </li>
     </ul>
-
-    <div style="text-align: center">
-      <qrcode :val="val" :size="size" :bg-color="bgColor" :fg-color="fgColor" level="L"></qrcode>
-    </div>
   </div>
 </div>
 </template>

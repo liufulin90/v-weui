@@ -9,7 +9,7 @@
 
 <script>
   import 'v-weui/less/weui.less';
-  import { Icon } from 'v-weui'
+  import { Icon } from 'v-weui';
   export default {
     name: 'app',
     mounted () {
@@ -23,6 +23,8 @@
       }
     }
   }
+  // 这里是处理ios中对css active的不兼容问题
+  document.addEventListener('touchstart', function () {});
 </script>
 
 <style>
@@ -34,13 +36,13 @@
     color: #2c3e50;
   }
   #app header {
-    height: 32px;
-    line-height: 32px;
+    height: 44px;
+    line-height: 44px;
     font-size: 16px;
     text-align: left;
     text-indent: 20px;
     background-color: #63bd70;
     color: white;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 </style>

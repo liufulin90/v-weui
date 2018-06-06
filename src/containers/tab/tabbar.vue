@@ -4,7 +4,7 @@
     <tab>
       <div slot="body"></div>
       <tabbar slot="tabbar">
-        <tabbar-item v-for="bar in bars" :is-on="!!bar.isOn">
+        <tabbar-item v-for="bar in bars" :is-on="!!bar.isOn" :key="bar">
           <img slot="icon" :src="bar.icon" alt="">
           <span slot="label">{{bar.label}}</span>
         </tabbar-item>

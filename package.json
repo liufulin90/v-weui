@@ -1,8 +1,8 @@
 {
   "name": "v-weui",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "WeUI components with love of Vue2.js",
-  "main": "dist/v-weui.js",
+  "main": "components/index.js",
   "repository": {
     "type": "git",
     "url": "liufulin90/v-weui"
@@ -11,10 +11,9 @@
     "vue": "^2.2.6"
   },
   "files": [
-    "LICENCE",
     "README.md",
     "components",
-    "dist"
+    "lib"
   ],
   "keywords": [
     "weui",
@@ -95,9 +94,7 @@
   },
   "scripts": {
     "clean": "rimraf dist",
-    "start": "node examples/server.js",
-    "release": "rimraf lib && webpack --progress --hide-modules --config webpack.build.min.js && webpack --progress --hide-modules --config  webpack.build.js",
-    "build:examples": "rimraf examples/dist && webpack --config examples/webpack.build.js",
+    "release": "rimraf lib &&cross-env NODE_ENV=production webpack --progress --hide-modules --config webpack.build.js",
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
@@ -118,5 +115,5 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "license": "MIT"
+  "license": "ISC"
 }

@@ -1,12 +1,12 @@
 <template>
   <div class="page" transition="app">
-    <div class="hd">
+    <div class="hd" style="margin-bottom: 1rem;">
       <h1 class="page_title">V-WeUI</h1>
       <p class="page_desc">使用Vue封装，为微信Web服务量身设计</p>
     </div>
     <div class="bd">
       <grids>
-        <grid v-for="item in list" :link="'#/' + item.url" :image-url="item.image" :label="item.text"></grid>
+        <grid v-for="item in list" :link="'#/' + item.url" :image-url="item.image" :label="item.text" :key="item"></grid>
       </grids>
     </div>
   </div>

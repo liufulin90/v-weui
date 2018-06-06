@@ -1,5 +1,5 @@
 <template>
-<a href="javascript:;" class="weui-btn" :class="[typeClass, disabled ? 'weui-btn_disabled' : '', mini ? 'weui-btn_mini' : '']">
+<a href="javascript:;" @click="clickEvent" class="weui-btn" :class="[typeClass, disabled ? 'weui-btn_disabled' : '', mini ? 'weui-btn_mini' : '']">
   <slot></slot>
 </a>
 </template>
@@ -52,6 +52,11 @@ export default {
   computed: {
     typeClass() {
       return `weui-btn${this.plain ? '_plain' : ''}_${this.type}`;
+    }
+  },
+  methods: {
+    clickEvent(){
+      this.$emit('click');
     }
   }
 }

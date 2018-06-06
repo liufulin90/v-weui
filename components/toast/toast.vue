@@ -10,7 +10,13 @@
   </div>
 </div>
 </template>
-
+<style>
+  .weui-toast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+</style>
 <script>
 export default {
   name: 'toast',
