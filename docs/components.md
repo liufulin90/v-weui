@@ -61,6 +61,8 @@
 * [15. 搜索栏](#15-搜索栏)
     * [SearchBar](#searchbar)
 
+* [16. 二维码](#16-二维码)
+    * [QrCode](#qrcode)
 <!-- toc stop -->
 
 
@@ -1346,3 +1348,78 @@ value: {
 * events
 
     * __`weui-search-bar-submit`__: 搜索栏提交事件（一般为用户在软键盘中点击了“搜索”按钮）
+    
+### 15. 搜索栏
+
+#### SearchBar
+
+* props
+
+```javascript
+/**
+ * 标签
+ */
+placeholder: {
+  type: String,
+  required: false
+},
+
+/**
+ * 取消按钮文本，若不设置则无取消按钮
+ */
+cancelText: {
+  type: String,
+  required: false
+},
+
+/**
+ * 双向绑定的搜索框输入内容
+ */
+value: {
+  type: String,
+  required: true,
+  twoWay: true
+}
+```
+
+* events
+
+    * __`weui-search-bar-submit`__: 搜索栏提交事件（一般为用户在软键盘中点击了“搜索”按钮）
+    
+### 16. 二维码
+
+#### QrCode
+
+* props
+
+```javascript
+/**
+ * 大小
+ */
+size: {
+  type: Number,
+  default: 100
+},
+/**
+* 背景色
+*/
+bgColor: {
+  type: String,
+  default: '#FFFFFF'
+},
+/**
+* 前景色即二维码颜色
+*/
+fgColor: {
+  type: String,
+  default: '#000000'
+},
+
+/**
+ * 二维码文本内容
+ */
+val: {
+  type: String,
+  required: true
+}
+```

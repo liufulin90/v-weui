@@ -34,7 +34,8 @@ npm install v-weui --save
 
 ```javascript
 // 引入css样式
-import 'v-weui/less/weui.less';
+import 'v-weui/components/less/weui.less';
+
 // 引用所有组件
 import VWeui from 'v-weui';
 
@@ -77,9 +78,9 @@ new Vue({
 ## 查看示例
 
 ```
-git clone https://github.com/liufulin90/v-weui
+git clone https://github.com/liufulin90/v-weui.git
 cd v-weui && npm install
-npm start
+npm run dev
 
 open http://localhost:8080 in browser
 ```
@@ -90,7 +91,7 @@ open http://localhost:8080 in browser
 
 ## 反馈
 
-有任何意见和建议请提交issue或PR，谢谢。
+有任何意见和建议请提交[issue](https://github.com/liufulin90/v-weui/issues)或[PR](https://github.com/liufulin90/v-weui/pulls)，谢谢。
 
 [npm-badge]: https://img.shields.io/npm/v/v-weui.svg?style=flat-square
 [npm]: https://www.npmjs.com/package/v-weui
